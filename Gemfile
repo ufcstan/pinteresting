@@ -19,15 +19,17 @@ gem 'turbolinks'
 
 gem 'jbuilder', '~> 2.0'
 
-gem 'sdoc' '~> 0.4.0', 
+gem 'sdoc', '~> 0.4.0'
 
 gem 'bootstrap-sass'
 
 
 
 
-    group :doc 
-         	
+    
+    group:assets do
+      	
      gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 
+end
