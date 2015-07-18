@@ -1,6 +1,16 @@
 <div class="jumbotron center">
 	<h1>Welcome to my HOOD</h1>
-	<p>Click here if <%= link_to "You TRiLL!", "#", class: "btn btn-danger btn-lg" %>
 
-	Already DOWN? <%= link_to "Log in then", "#", class: "btn btn-primary btn-lg" %></p>
+<% if user_signed_in? %>
+	# Welcome to Da DiRTY SOUTH!
+<% else %>
+
+
+	<p>Click here if <%= link_to "You TRiLL!", new_user_registration_path, class: "btn btn-danger btn-lg" %>
+
+	Already DOWN? <%= link_to "Log in then", new_user_session_path, class: "btn btn-primary btn-lg" %>
+</p>
+<% end %>
+
+
 </div>
