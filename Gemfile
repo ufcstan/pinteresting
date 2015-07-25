@@ -18,6 +18,8 @@ gem 'jquery-rails'
 
 gem 'turbolinks'
 
+gem 'jquery-turbolinks'
+
 gem 'jbuilder', '~> 2.0'
 
 gem 'sdoc', '~> 0.4.0'
@@ -29,6 +31,10 @@ gem 'devise', '~> 3.1.0.rc2'
 gem 'paperclip', '~> 4.2'
 
 gem 'aws-sdk', '~> 1.20.0'
+
+gem 'mansonry-rails', '~> 0.2.0'
+
+
 
 
 
